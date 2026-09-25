@@ -36,6 +36,6 @@ public class BootReceiver extends BroadcastReceiver {
             } finally {
                 pending.finish();
             }
-        }, 10000);
+      }, 30000);
     }
 }
